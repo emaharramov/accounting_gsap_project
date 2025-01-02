@@ -12,7 +12,7 @@ const ServiceWhyUs = ({ sectiontitle, textmain, space }) => {
   const check = sectiontitle === "Who We We-Help";
   return (
     <section
-      className={`py-[100px] w-[1370px] mx-auto relative rounded-[40px] px-[30px] ${
+      className={`py-[100px] overflow-hidden w-[1370px] mx-auto relative rounded-[40px] px-[30px] ${
         check ? "" : "bg-[#f4f7fa]"
       }`}
     >
